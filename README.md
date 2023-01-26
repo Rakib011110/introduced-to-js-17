@@ -18,6 +18,7 @@ List of JavaScript:
 
 - [how To work js](#how-Towork-js ) 
 - [how to write variable](###write-variable)
+- [Arithmetic-Operators](#Arithmetic-Operators) 
 
 
 ### demo
@@ -25,8 +26,7 @@ List of JavaScript:
 <summary>
   <h3>What is ? (Click Me)</h3>
 </summary>
-<br >
- 
+<br > 
 
 ```js
 
@@ -185,7 +185,66 @@ var person = 25;
 var Person = 35;
 ```
 
+</details> 
+
+
+
+
 </details>
+
+### Arithmetic-Operators
+
+<details>
+<summary>
+  <h3>What is ? (Click Me)</h3>
+</summary>
+<br >
+
+JavaScript Arithmetic Operators
+Arithmetic operators perform arithmetic on numbers (literals or variables).
+
+- - Addition
+- - Subtraction
+- - Multiplication
+- \*\* Exponentiation (ES2016)
+- / Division
+- % Modulus (Remainder)
+- ++ Increment
+- -- Decrement
+
+```js
+var onionPrice = 20;
+var eggPrice = 10;
+// console.log(onionPrice)
+
+
+// addition, subtraction
+/* var totalPrice = onionPrice + eggPrice;
+console.log(totalPrice)
+var priceDifference = onionPrice - eggPrice;
+console.log(priceDifference);
+ */
+
+// console.log(totalPrice);
+// console.log(onionPrice);
+// console.log(eggPrice);
+// console.log(onionPrice + eggPrice);
+
+
+/* multplication
+var orangePrice = 20;
+var quantiy = 7;
+var totalCost = orangePrice * quantiy;
+console.log(totalCost); */
+
+
+// division
+var money = 500;
+var player = 10;
+var eachPlayer = money / player;
+console.log(eachPlayer);
+```
+
 
 
 
