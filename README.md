@@ -203,9 +203,9 @@ var Person = 35;
 JavaScript Arithmetic Operators
 Arithmetic operators perform arithmetic on numbers (literals or variables).
 
-- - Addition
-- - Subtraction
-- - Multiplication
+- +Addition
+- -Subtraction
+- *Multiplication
 - \*\* Exponentiation (ES2016)
 - / Division
 - % Modulus (Remainder)
