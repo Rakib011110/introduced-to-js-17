@@ -15,8 +15,8 @@
 
 List of JavaScript:
 
-- [es6](#es6) 
-- [how To work js](#howToworkjs) 
+
+- [how To work js](#how-Towork-js ) 
 
 
 ### demo
@@ -25,8 +25,7 @@ List of JavaScript:
   <h3>What is ? (Click Me)</h3>
 </summary>
 <br >
- reduce
-
+ 
 
 ```js
 
@@ -37,21 +36,10 @@ List of JavaScript:
 
 
 
-### es6
-<details>
-<summary>
-  <h3>What is es6? (Click Me)</h3>
-</summary>
-<br >
- demo
-
-```js
-
-```
-</details> 
 
 
-### howToworkjs 
+
+### how-Towork-js 
 
 
 <details>
@@ -83,6 +71,51 @@ List of JavaScript:
 11-কীবোর্ড কী প্রেস - কোন কারনে ইউজার কীবোর্ড থেকে যখন কোন কী প্রেস করবে তখন ও জাভাস্কিপ্ট কাজ করতে পারে ।
 
 
+```
+</details> 
+
+
+<details>
+<summary>
+  <h3>JavaScript version? (Click Me)</h3>
+</summary>
+<br >
+
+- সর্বপ্রথ JavaScript ১৯৯৫ সালে Brendan Eich নামে একজন ব্যক্তি আবিষ্কার করেছিল।
+
+- ECMAScript হলো JavaScript এর অফিসিয়াল নাম এবং এই ECMAScript কে আবার ES ও বলা হয়ে থাকে।
+
+
+```js
+
+```
+</details> 
+
+<details>
+<summary>
+  <h3>জাভাস্ক্রিপ্ট ভ্যারিয়বেল কি? (Click Me)</h3>
+</summary>
+<br >
+
+
+-ভ্যারিয়বেল (variable) এর অর্থ - পরিবর্তনশীল । প্রোগ্রামে কোন তথ্য বা ডাটাকে বার বার ব্যবহার করার জন্য নির্দিষ্ট Keyword এর মাধ্যমে কম্পিউটারের মেমরি ( Ram memory) ভিতরে স্টোর করে রাখা হয় । এই স্টোর করে রাখা ডাটাকে Variable এর মাধ্যমে যেখানে প্রয়োজন হবে সেখানে ডিক্লিয়ার করা হয় ।
+
+
+```js
+-example
+var price = 11;
+var age = 17;
+var temperature = 38;
+
+// string
+var person = "sodor uddin";
+var location = "andork killa bandorbon";
+var special = 'alia bhatt';
+
+// Boolean
+var serious = true;
+var isFullMarks = true;
+var isSingle = false;
 ```
 </details>
 
