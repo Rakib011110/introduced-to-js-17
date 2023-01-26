@@ -1,3 +1,18 @@
+### demo
+
+<details>
+<summary>
+  <h3>What is ? (Click Me)</h3>
+</summary>
+<br >
+ reduce
+
+```js
+
+```
+
+</details>
+
 #JavaScript using Method
 
 ### What is javaScript ?
@@ -55,3 +70,116 @@ var special = 'alia bhatt';
 var serious = true;
 var isFullMarks = true;
 var isSingle = false;
+
+### write-variable
+
+<details>
+<summary>
+  <h3> How to write variable ? (Click Me)</h3>
+</summary>
+<br >
+- ভ্যারিয়েবল এ letters(a-z), digits(0-9), underscores(_), and dollar signs($) এই চারটি জিনিস ব‍্যবহার করতে পারেন।
+- ভ্যারিয়েবল এর নাম ডিজিট বা নম্বর দিয়ে শুরু করা যাবে না। তবে মাঝে কিংবা শেষে ডিজিট ব‍্যবহার করা যাবে। উদাহরণ  var name7 = rakib islam ';
+- ভ্যারিয়েবল নামের মধ‍্যে স্পেস বা ফাঁকা রাখা যাবে না।
+- ভ্যারিয়েবল এর নামে কোন কিওয়ার্ড ব‍্যবহার করা যাবে।
+- ভেরিয়েবলের নাম কেজ সেন্সিটিভ তাই এ ব্যাপারে সতর্ক থাকতে হবে। যেমন A এবং a এক নয়।
+- ভেরিয়েবলের নামের মাঝে কোন চিহ্ন যেমন – কমা, ফুলস্টপ ব্যবহার করা যাবে না।
+- ভেরিয়েবলের নাম হিসেবে জাভাস্ক্রিপ্টের সংরক্ষিত শব্দ বা Reserved Word গুলো ব্যবহার করা যাবে না।
+- চাইলে একসাথে একাধিক ভ‍্যালিয়েবল লেখা যায়। তবে সেক্ষেত্রে প্রতিটি ভ‍্যালিয়েবলের পরে কমা দিতে হবে। উদাহরণ: var name, age, location;
+
+৩ টি উপায়ের ভ্যারিয়েবল ব্যবহার করা যায়:
+১. var 2. let = পরবর্তীতে কোন ভ্যারিয়েবলের মান পরিবর্তন করা যায়। বেশিভাগ সময় এটি ব্যবহার করা হয়।
+৩. const = এটি কোন ভ্যারিয়েবল দিলে ভ্যারিয়েবলের মান পরিবর্তন করা যায়।
+
+```js
+// good variable
+var price = 29;
+/* 
+vaR price = 29;
+Var price = 29;
+VAR price = 29; */
+
+/*
+1. variable name can not be any keywords
+var false = 96;
+var return = true;
+ */
+
+// 2. variable name has to be in one work. No space
+// var my home address = "New California";
+
+/*  3. variable name can not have quotation
+var "name" = "Tom Hanks"; */
+
+/* 
+ 4. variable name can not starts with a number but can ends with a number
+var 99Club = 1964;
+var club25 = 2025;
+ */
+/* 
+ 5. How to use long names
+ can not use dash
+var user-name = "raj bappa";
+ */
+var user_name = "bappa raj";
+var usercurrenthomeaddress = "andor killa bandor ban";
+var user_home_address = "andor killa bandor ban"; // snake case
+var userHomeAddress = "andor killa bandor ban"; // camel case: we will use this one
+var UserHomeAddress = "andor killa bandor ban"; // pascal case
+
+// variable name is case senstive
+var person = 25;
+var Person = 35;
+```
+
+</details>
+
+### Arithmetic-Operators
+
+<details>
+<summary>
+  <h3>What is ? (Click Me)</h3>
+</summary>
+<br >
+
+JavaScript Arithmetic Operators
+Arithmetic operators perform arithmetic on numbers (literals or variables).
+
+- - Addition
+- - Subtraction
+- - Multiplication
+- \*\* Exponentiation (ES2016)
+- / Division
+- % Modulus (Remainder)
+- ++ Increment
+- -- Decrement
+
+```js
+var onionPrice = 20;
+var eggPrice = 10;
+// console.log(onionPrice)
+
+// addition, subtraction
+/* var totalPrice = onionPrice + eggPrice;
+console.log(totalPrice)
+var priceDifference = onionPrice - eggPrice;
+console.log(priceDifference);
+ */
+
+// console.log(totalPrice);
+// console.log(onionPrice);
+// console.log(eggPrice);
+// console.log(onionPrice + eggPrice);
+
+/* multplication
+var orangePrice = 20;
+var quantiy = 7;
+var totalCost = orangePrice * quantiy;
+console.log(totalCost); */
+
+// division
+var money = 500;
+var player = 10;
+var eachPlayer = money / player;
+console.log(eachPlayer);
+```
