@@ -225,7 +225,7 @@ var eachPlayer = money / player;
 console.log(eachPlayer);
 ```
 
-### demo
+</details>
 
 <details>
 <summary>
