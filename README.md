@@ -1,47 +1,38 @@
-# introduced-to-js-17 
+# introduced-to-js-17
 
-# JavaScript Using Method 
+# JavaScript Using Method
 
 ### what is javaScript?
-- JavaScript is high level, interpreted programming language used to make web pages more interactive. JavaScript is a dynamic programming language that's used for web development, web applications, game development, and lots more. JavaScript language is used both on the client-side and server-side allowing you to make web pages interactive. 
+
+- JavaScript is high level, interpreted programming language used to make web pages more interactive. JavaScript is a dynamic programming language that's used for web development, web applications, game development, and lots more. JavaScript language is used both on the client-side and server-side allowing you to make web pages interactive.
 - JavaScript হলো একটি scripting অথবা programming language যা সাধারনত কোন ওয়েবসাইটে ব্যবহার করা হয়। এই language কে আবার client-side scripting language ও বলা হয় কারণ এর সোর্স কোড গুলো process হয় Client এর web browser দিয়ে।
 
 ### Why use JavaScript?
+
 - Where HTML and CSS are languages that give structure and style to web pages, JavaScript gives web pages interactive elements that engage a user.
-
-
-
-
 
 List of JavaScript:
 
-
-- [how To work js](#how-Towork-js ) 
+- [how To work js](#how-Towork-js)
 - [how to write variable](###write-variable)
-- [Arithmetic-Operators](#Arithmetic-Operators) 
-
+- [Arithmetic-Operators](#Arithmetic-Operators)
+- [js type](#js-type)
 
 ### demo
+
 <details>
 <summary>
   <h3>What is ? (Click Me)</h3>
 </summary>
-<br > 
+<br >
 
 ```js
 
 ```
+
 </details>
 
-
-
-
-
-
-
-
-### how-Towork-js 
-
+### how-Towork-js
 
 <details>
 <summary>
@@ -50,8 +41,7 @@ List of JavaScript:
 <br >
  reduce
 
-
-```js 
+```js
 
 
 ১। JavaScript Engine প্রথমে আপনার JavaScript Code পড়বে মানে parse করবে।
@@ -73,8 +63,8 @@ List of JavaScript:
 
 
 ```
-</details> 
 
+</details>
 
 <details>
 <summary>
@@ -86,11 +76,11 @@ List of JavaScript:
 
 - ECMAScript হলো JavaScript এর অফিসিয়াল নাম এবং এই ECMAScript কে আবার ES ও বলা হয়ে থাকে।
 
-
 ```js
 
 ```
-</details> 
+
+</details>
 
 <details>
 <summary>
@@ -98,12 +88,10 @@ List of JavaScript:
 </summary>
 <br >
 
-
 - ভ্যারিয়বেল (variable) এর অর্থ - পরিবর্তনশীল । প্রোগ্রামে কোন তথ্য বা ডাটাকে বার বার ব্যবহার করার জন্য নির্দিষ্ট Keyword এর মাধ্যমে কম্পিউটারের মেমরি ( Ram memory) ভিতরে স্টোর করে রাখা হয় । এই স্টোর করে রাখা ডাটাকে Variable এর মাধ্যমে যেখানে প্রয়োজন হবে সেখানে ডিক্লিয়ার করা হয় ।
 
-
 ```js
--example
+-example;
 var price = 11;
 var age = 17;
 var temperature = 38;
@@ -111,17 +99,15 @@ var temperature = 38;
 // string
 var person = "sodor uddin";
 var location = "andork killa bandorbon";
-var special = 'alia bhatt';
+var special = "alia bhatt";
 
 // Boolean
 var serious = true;
 var isFullMarks = true;
-var isSingle = false; 
- 
+var isSingle = false;
 ```
-</details> 
 
-
+</details>
 
 ### write-variable
 
@@ -129,9 +115,9 @@ var isSingle = false;
 <summary>
   <h3> How to write variable ? (Click Me)</h3>
 </summary>
-<br > 
+<br >
 
-- ভ্যারিয়েবল এ letters(a-z), digits(0-9), underscores(_), and dollar signs($) এই চারটি জিনিস ব‍্যবহার করতে   পারেন।
+- ভ্যারিয়েবল এ letters(a-z), digits(0-9), underscores(\_), and dollar signs($) এই চারটি জিনিস ব‍্যবহার করতে পারেন।
 - ভ্যারিয়েবল এর নাম ডিজিট বা নম্বর দিয়ে শুরু করা যাবে না। তবে মাঝে কিংবা শেষে ডিজিট ব‍্যবহার করা যাবে। উদাহরণ: var name7 = rakib islam ';
 - ভ্যারিয়েবল নামের মধ‍্যে স্পেস বা ফাঁকা রাখা যাবে না।
 - ভ্যারিয়েবল এর নামে কোন কিওয়ার্ড ব‍্যবহার করা যাবে।
@@ -141,8 +127,8 @@ var isSingle = false;
 - চাইলে একসাথে একাধিক ভ‍্যালিয়েবল লেখা যায়। তবে সেক্ষেত্রে প্রতিটি ভ‍্যালিয়েবলের পরে কমা দিতে হবে। উদাহরণ: var name, age, location;
 
 - 3 টি উপায়ের ভ্যারিয়েবল ব্যবহার করা যায়:
-১. var 2. let = পরবর্তীতে কোন ভ্যারিয়েবলের মান পরিবর্তন করা যায়। বেশিভাগ সময় এটি ব্যবহার করা হয়।
-৩. const = এটি কোন ভ্যারিয়েবল দিলে ভ্যারিয়েবলের মান পরিবর্তন করা যায়।
+  ১. var 2. let = পরবর্তীতে কোন ভ্যারিয়েবলের মান পরিবর্তন করা যায়। বেশিভাগ সময় এটি ব্যবহার করা হয়।
+  ৩. const = এটি কোন ভ্যারিয়েবল দিলে ভ্যারিয়েবলের মান পরিবর্তন করা যায়।
 
 ```js
 // good variable
@@ -185,10 +171,7 @@ var person = 25;
 var Person = 35;
 ```
 
-</details> 
-
-
-
+</details>
 
 </details>
 
@@ -205,7 +188,7 @@ Arithmetic operators perform arithmetic on numbers (literals or variables).
 
 - +Addition
 - -Subtraction
-- *Multiplication
+- \*Multiplication
 - \*\* Exponentiation (ES2016)
 - / Division
 - % Modulus (Remainder)
@@ -216,7 +199,6 @@ Arithmetic operators perform arithmetic on numbers (literals or variables).
 var onionPrice = 20;
 var eggPrice = 10;
 // console.log(onionPrice)
-
 
 // addition, subtraction
 /* var totalPrice = onionPrice + eggPrice;
@@ -230,13 +212,11 @@ console.log(priceDifference);
 // console.log(eggPrice);
 // console.log(onionPrice + eggPrice);
 
-
 /* multplication
 var orangePrice = 20;
 var quantiy = 7;
 var totalCost = orangePrice * quantiy;
 console.log(totalCost); */
-
 
 // division
 var money = 500;
@@ -245,12 +225,31 @@ var eachPlayer = money / player;
 console.log(eachPlayer);
 ```
 
+### demo
 
+<details>
+<summary>
+  <h3> JavaScript Type(Click Me)</h3>
+</summary>
+<br >
 
+```js
+var price = 100;
+//  console.log(typeof price);
+var price = "100";
+// console.log(typeof price);
+var isHappy = true;
+// console.log(typeof isHappy);
+var romantic;
+// console.log(typeof romantic);
 
+// advanced
+var num1 = 0.1;
+var num2 = 0.2;
+var sum = num1 + num2;
+sum = sum.toFixed(1);
+sum = parseFloat(sum);
+console.log(sum);
+```
 
-
-
-
-
-
+</details>
