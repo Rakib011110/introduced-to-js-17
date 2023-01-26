@@ -196,7 +196,7 @@ var Person = 35;
 
 <details>
 <summary>
-  <h3>What is ? (Click Me)</h3>
+  <h3>Arithmetic-Operators(Click Me)</h3>
 </summary>
 <br >
 
